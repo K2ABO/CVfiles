@@ -1,0 +1,244 @@
+/*       MEDIA QUERIES (MQ)    */
+
+@media only screen and (max-width: 900px){
+
+    
+
+    body{
+        max-width: 800px;
+    }
+
+    #global{
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+   
+    /*    right aside(MQ)   */
+
+    .aside:first-child{
+        width: 100%;
+        height: 100%;       
+    }
+
+    .tof{ 
+        position:relative;
+        left: 2%;
+        
+    }
+    
+    .name{
+        font-size: 170%;
+      
+    }
+
+    .social{
+        text-align: center;
+    }
+    
+    .about{
+        text-align: center;
+    }
+   
+    .langues{
+        font-size:20%;
+        text-align: center;
+    }
+    ::-moz-progress-bar{
+        background-color: aqua;
+        }
+    .loisirs{
+        text-align: center;
+    }
+
+    .contact{
+        text-align: center;
+        color: white;
+        padding-left: 10px;
+       
+    }
+
+    
+
+}
+
+/*       POLICE     */;
+
+@font-face 
+{
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    src: url("file:///android_asset/fonts/MyFont.otf")   
+
+    
+}
+
+.about p{
+    font-family:  angelina, Helvetica, sans-serif, arial;
+    font-size: 45px;
+}
+
+
+/*      IMAGE     */
+img{
+    border-radius: 150%; 
+    width: 70%;
+    height: 70%;
+    box-shadow: rgb(2, 2, 2) 5px;
+    position:relative;
+    left:10%
+}
+
+
+/*      TEXTE    */
+
+.mail{
+    text-align:center;
+    padding: 4%;
+}
+
+a:hover{
+     text-decoration:underline;
+     color:rgb(255, 187, 0);
+     font-weight:bold;
+
+ }
+span
+{    font-size: inherit;
+     font-weight:bold;
+}
+
+p{
+    font-size: 30px;
+    color:white   
+}
+
+li{
+    
+    font-size:inherit;
+    color:  rgb(0, 0, 0);
+    
+}
+
+h1{ 
+    font-size: 200%;
+    color: white;
+    padding-left: 4%;
+ }
+
+ h2{  
+     font-family: "angelina 3";
+     color: rgb(255, 72, 72);
+     font-size: 35px;
+     text-decoration: underline;
+     padding:1%;
+}
+
+h3{
+    color: rgb(22, 54, 233);}
+
+h4{
+    font-size: 30px;
+    color:rgb(20, 11, 19);
+
+}
+   
+
+
+
+/*       left ASIDE  */
+
+.aside{
+    box-shadow: rgb(0, 0, 0) 5px 10px 18px blackÒ;
+    background-image: url(body.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    height: 3300px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.mail{
+    font-size: 25px;
+}
+
+.name{
+    position:relative;
+    padding-left: 4%;
+}
+
+.fa-facebook {
+    color: #3b5999;
+}
+.fa-twitter {
+    color: #55acee;
+  }
+.fa-linkedin{
+      color: rgb(17, 107, 209);
+      
+}
+
+i:hover{
+    color: aquamarine;
+}
+.about{
+    font-size: 30px;
+    padding-left: 4%;
+}
+.social{
+    color:rgb(151, 105, 7);
+    font-size: 50px;
+    text-align:center;
+}
+ 
+.langues{
+    font-size: 30px;
+    color: white;
+    padding-left: 4%;
+    
+}
+
+::-moz-progress-bar{
+    background-color: aqua;
+}
+
+.loisirs{
+    font-size: 30px;
+    padding-left:4%
+}
+
+.contact{
+    color: white;
+    padding-left: 4%;
+}
+
+
+/*      CORPS     */
+
+
+body{ 
+    background-color: rgb(14, 13, 10);
+    margin: auto;
+}
+
+#global{
+   max-width:1900px;
+   display: flex;
+}
+
+.contener{
+    font-size:30px ;
+    background-color: azure;
+    padding-left: 4px;
+ }
+
+ footer{
+    text-align: center;
+    background-image: url(b.jpg);}
+
